@@ -9,6 +9,7 @@ namespace DevOps_Basics
     public class Library : ILibrary
     {
         private List<IBook> books = new List<IBook>();
+        public IReadOnlyList<IBook> Books => books;
 
         public void AddBook(IBook book)
         {
