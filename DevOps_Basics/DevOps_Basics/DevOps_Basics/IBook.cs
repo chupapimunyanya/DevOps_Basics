@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace DevOps_Basics
 {
-        public interface IBook
-        {
-            string Title { get; set; }
-            string Author { get; set; }
-            int Year { get; set; }
-        }
+    public interface IBook
+    {
+        string Title { get; set; }
+        string Author { get; set; }
+        int Year { get; set; }
+    }
 }
